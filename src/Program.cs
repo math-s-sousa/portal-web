@@ -44,6 +44,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseMiddleware<UnauthorizedRedirectMiddleware>();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

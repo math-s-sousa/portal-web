@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace portal_web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
