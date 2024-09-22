@@ -14,6 +14,6 @@ namespace portal_web.Database
         public int Id { get; set; }
         public string Username { get; set; }
         public string PasswordHash { get; set; }
-        public string Role { get; set; } // Exemplo de role para controle de permissões
+        public string Role { get; set; }
     }
 }

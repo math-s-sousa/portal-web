@@ -4,7 +4,7 @@
 
 namespace portal_web.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class CriarTabelaUsuario : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

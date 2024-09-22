@@ -11,8 +11,8 @@ using portal_web.Database;
 namespace portal_web.Migrations
 {
     [DbContext(typeof(LocalMarketContext))]
-    [Migration("20240922022109_Inicial")]
-    partial class Inicial
+    [Migration("20240922032553_CriarTabelaUsuario")]
+    partial class CriarTabelaUsuario
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
